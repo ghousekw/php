@@ -11,6 +11,6 @@
         echo "connected";
     }
     catch(PDOException $e){
-        echo "Connection Failed<br>".$e->getMessage();
+        echo "Connection Failed<hr>".$e->getMessage();
     }
 ?>
